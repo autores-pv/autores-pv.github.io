@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    bottom: 0px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.texto{
+    text-align: justify;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+h2{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .texto{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+}
